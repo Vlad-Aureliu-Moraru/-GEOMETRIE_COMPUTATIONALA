@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="content">
+        <div class="forEach">
+          <input type="number" id="A" />
+          <h1 id="vectA">{}</h1>
+          <button onclick="addToCoordA()">Adauga A</button>
+        </div>
+
+        <div class="forEach">
+          <input type="number" id="B" />
+          <h1 id="vectB">{}</h1>
+          <button onclick="addToCoordB()">Adauga B</button>
+        </div>
+
+        <div class="forEach">
+          <input type="number" id="C" />
+          <h1 id="vectC">{}</h1>
+          <button onclick="addToCoordC()">Adauga C</button>
+        </div>
+      </div>
+      <div class="content">
+        <button onclick="debug()">Aplica Algoritmul II</button>
+        <button onclick="random()">Genereaza Numere Random</button>
+      </div>
+    </div>
+
+    <div class="content">
+      <h3 id="result">Raspuns : <br /></h3>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
