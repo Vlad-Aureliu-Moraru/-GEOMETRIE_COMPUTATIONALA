@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Moraru Vlad - Grupa 4 Universitatea "Ovidius"</h2>
+    <div class="container-for-content2">
+      <div class="container-for-content1">
+        <h3>Introdu Coordonatele</h3>
+        <div class="container-for-points">
+          <label>x</label>
+          <input type="number" id="x" />
+          <label>y</label>
+          <input type="number" id="y" />
+        </div>
+        <button id="addpoints" onclick="adaugaVarfPoligon()">
+          Adauga Varf
+        </button>
+        <button id="addpointM" onclick="adaugaM()">Adauga Punct M</button>
+        <button id="solve" onclick="solve()">Verifica</button>
+        <button id="closefigure" onclick="closefigure()">
+          Inchide poligonul
+        </button>
+      </div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
