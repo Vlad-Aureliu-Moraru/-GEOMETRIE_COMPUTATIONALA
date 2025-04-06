@@ -1,0 +1,62 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+#main-container {
+  height: 20%;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: groove double groove double;
+  border-width: 5px;
+  border-radius: 25px;
+  border-color: rgb(179, 153, 8);
+}
+#canvas {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50%;
+  border-style: groove double groove double;
+  border-width: 5px;
+  border-radius: 25px;
+  border-color: rgb(180, 154, 7);
+}
+input {
+  width: 40%;
+  font-size: 20px;
+  height: 30px;
+  border-radius: 25px;
+  border-style: groove double groove double;
+  border-width: 5px;
+  border-color: rgb(180, 154, 7);
+}
+
+button {
+  width: 70%;
+  height: 30px;
+  border-style: none;
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: darkgreen;
+}
+button:active {
+  background-color: lightgreen;
+}

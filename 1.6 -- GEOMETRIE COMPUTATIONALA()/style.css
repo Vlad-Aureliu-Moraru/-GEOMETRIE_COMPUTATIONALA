@@ -1,0 +1,109 @@
+body {
+  height: 100vh;
+  padding: 30px;
+  overflow: hidden;
+  background: #fdf3dd;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+}
+#main-container {
+  color: #2a1242;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  height: 80%;
+  width: 50%;
+  padding: 20px;
+}
+#inputPoints-container {
+  background-color: #caaacd8d;
+  height: 10%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
+}
+#inputSquare-container {
+  background-color: #ef601e7e;
+  height: 10%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+}
+#answer {
+  background-color: #caaacd8d;
+  height: 10%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+#outputMatrix-container {
+  background-color: #cb972e7d;
+  height: auto;
+  border-radius: 15px;
+  padding: 10px;
+}
+#canvas-container {
+  width: 65%;
+  height: 80%;
+  border-radius: 15px;
+  background-color: #f1f1f133;
+}
+canvas {
+  background: #d6e8f756;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+input {
+  border-style: none;
+  border-radius: 20px;
+  height: 20px;
+  width: 50px;
+}
+button {
+  border-radius: 20px;
+  border-style: none;
+  color: #fdf3dd;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: #1e142d;
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+}
+button:hover {
+  background-color: #1e142d70;
+  box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+.container {
+  box-shadow: 0 0 20px 5px rgb(255, 255, 255);
+}
+table {
+  color: black;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+}
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}

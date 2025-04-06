@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="fileInput" onclick="document.getElementById('file').click();">
+        Alege File
+      </button>
+      <input
+        type="file"
+        id="file"
+        onchange="handleFileChange(event)"
+        accept=".txt"
+      />
+      <input id="inputToCheck" />
+      <button onclick="check()" id="check">Check</button>
+    </div>
+    <div id="answer"></div>
+    <div id="fileOutput">
+      <h2 id="alphabet">Σ</h2>
+      <br />
+      <h2 id="states">;Q</h2>
+      <br />
+      <h2 id="final">;F</h2>
+      <br />
+      <h2 id="initial">;Stare Initiala</h2>
+      <br />
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

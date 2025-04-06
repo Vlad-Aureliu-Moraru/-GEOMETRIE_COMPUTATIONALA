@@ -1,0 +1,96 @@
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.main-container {
+  color: whitesmoke;
+  background: rgba(255, 255, 255, 0.171);
+  backdrop-filter: blur(2px);
+  display: flex;
+  width: 90%;
+  border: rgba(255, 255, 255, 0.427) solid 1px;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: inset 0 -1px 5px rgba(255, 255, 255, 0.386);
+  font-family: "Inconsolata", monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  width: 33%;
+  gap: 10px;
+}
+#alg1-container {
+  border-left: rgba(255, 255, 255, 0.438) solid 2px;
+  border-right: rgba(255, 255, 255, 0.438) solid 2px;
+}
+#alg3-container {
+  border-left: rgba(255, 255, 255, 0.438) solid 2px;
+}
+input {
+  border-radius: 20px;
+  height: 20px;
+  font-size: larger;
+  border: none;
+  background: rgba(255, 255, 255, 0.313);
+}
+#addToP {
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: none;
+  height: 20px;
+  width: 20px;
+  transition: 0.5s;
+}
+#addToP:hover {
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.701);
+
+  transform: scale(1.2);
+}
+#addToP:active {
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.901);
+  color: green;
+  background: greenyellow;
+  transform: rotate(50deg);
+}
+#for-P {
+  display: flex;
+  max-height: 200px;
+  overflow-y: auto;
+  flex-direction: column;
+}
+.active-button {
+  background: rgb(14, 65, 177);
+  color: rgb(255, 255, 255);
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+.active-button:hover {
+  background: rgb(14, 65, 177, 0.8);
+}
+
+.active-button:active {
+  background: rgb(14, 65, 177, 0.5);
+}
+#file {
+  display: none;
+}

@@ -1,0 +1,113 @@
+body {
+  margin: 20px;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 10px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  height: 40px;
+  width: 90%;
+  font-size: 30px;
+  border-radius: 15px;
+  border: #000000;
+  border-style: solid;
+  outline: none;
+}
+#verifica {
+  border-radius: 50px;
+  height: 45px;
+  width: 30%;
+  font-size: 30px;
+  background-color: #4caf4f00;
+  color: white;
+  border: rgba(255, 255, 255, 0.475), solid 2px;
+  cursor: pointer;
+}
+#verifica:hover {
+  border: rgba(135, 132, 132, 0.744), solid 2px;
+}
+#verifica:active {
+  backdrop-filter: blur(100px);
+}
+.output {
+  position: relative;
+  bottom: 120px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  background: #000000ac;
+  border-radius: 25px;
+  padding: 10px;
+  gap: 10px;
+}
+#slider {
+  border: rgba(255, 255, 255, 0.473) 1px solid;
+  width: 97%;
+  height: 10px;
+  background: #121212;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slidingMenu {
+  backdrop-filter: blur(5px);
+  padding: 5px;
+  position: relative;
+  bottom: 140px;
+  border-radius: 20px;
+  background: rgba(57, 57, 57, 0.171);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  z-index: 1;
+}
+.contentOfMenu {
+  width: 100%;
+  display: flex;
+}
+.contAnsw {
+  padding: 10px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.231);
+  backdrop-filter: blur(5px);
+  width: auto;
+  height: 600px;
+  color: white;
+  border-radius: 15px;
+}
+.forInput {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.forList {
+  color: white;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

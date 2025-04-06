@@ -1,0 +1,78 @@
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+#file {
+  display: none;
+}
+button {
+  font-family: "Trebuchet MS";
+  background: #78d14b00;
+  color: white;
+  border: white solid 1px;
+  border-radius: 25px;
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  color: #9b9b9b;
+  border-color: #9b9b9b;
+}
+button:active {
+  border-color: #78d14b;
+  color: #78d14b;
+}
+#inputToCheck {
+  border-radius: 20px;
+  border-style: none;
+  height: 40px;
+  width: 200px;
+  font-size: 25px;
+}
+
+.container {
+  gap: 20px;
+  border-radius: 20px;
+  background: rgba(253, 253, 253, 0.105);
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+  align-items: center;
+}
+#fileOutput {
+  gap: 10px;
+  border-radius: 20px;
+  background: rgba(253, 253, 253, 0.105);
+  padding: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+  align-items: center;
+}
+#answer {
+  border-radius: 20px;
+  background: rgba(253, 253, 253, 0.105);
+  padding: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+  align-items: center;
+}
+h2 {
+  color: white;
+}

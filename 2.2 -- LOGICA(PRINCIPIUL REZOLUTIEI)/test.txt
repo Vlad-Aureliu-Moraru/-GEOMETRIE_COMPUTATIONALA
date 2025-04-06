@@ -1,0 +1,15 @@
+#Initial
+q0
+#Final
+q1
+q2
+q3
+#Automata
+{q0;0;q1}
+
+{q0;1;q2}
+{q0;2;q2}
+{q0;3;q2}
+{q0;4;q2}
+{q0;5;q2}
+{q0;7;q2}
