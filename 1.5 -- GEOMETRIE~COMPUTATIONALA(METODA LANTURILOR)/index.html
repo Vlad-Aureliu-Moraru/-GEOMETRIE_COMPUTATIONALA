@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="container-DCEL">
+        <h1>Conectiuni</h1>
+        <table border="solid" id="DCEL">
+          <tr>
+            <th>V1</th>
+            <th>V2</th>
+            <th>F1</th>
+            <th>F2</th>
+          </tr>
+          <button onclick="addRow()">+</button>
+        </table>
+        <button onclick="readDCEL()">Citeste DCEL</button>
+      </div>
+      <div class="input-container">
+        <select name="selectPoint" id="pointSelector"></select>
+        <label for="x">X : </label>
+        <input type="number" id="x" />
+        <label for="y">Y :</label>
+        <input type="number" id="y" />
+        <button id="add" onclick="assignCoordinates()">Adauga</button>
+      </div>
+      <div id="lanturi-container"></div>
+      <div id="raspuns-container"></div>
+    </div>
+    <div class="canvas-container">
+      <canvas id="canvas" width="500px" height="500px"></canvas>
+      <button id="solve" onclick="MetodaLanturilor()">Rezolva</button>
+      <button id="clearCanvas" onclick="clearCanvas()">Curata Canvas</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
